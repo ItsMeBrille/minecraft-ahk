@@ -2,7 +2,7 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-SetTitleMatchMode, 2 ; This let's any window that partially matches the given name get activated
+SetTitleMatchMode, 2 ; Window name must contain "Minecraft"
 #IfWinActive Minecraft
 
 *XButton1::
